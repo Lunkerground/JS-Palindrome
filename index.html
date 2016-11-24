@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Fiche Exercice 3</title>
+</head>
+<body>
+
+	<h1>Les palindromes</h1>
+
+	<button id="bouton" onClick="reset()">Commencer / Recommencer</button>
+
+	<table>
+		<tr>
+			<td><p>Le mot saisi</p></td>
+			<td><p>Le mot en minuscule</p></td>
+			<td><p>Le mot en majuscule</p></td>
+			<td><p>Le nombre de voyelles et de consonnes</p></td>
+			<td><p>Le mot inversé</p></td>
+			<td><p>Le mot est-il un palyndrome</p></td>
+		</tr>
+		<tr id="tableau">
+			<td><span id="mot"></span></td>
+			<td><span id="min"></span></td>
+			<td><span id="maj"></span></td>
+			<td><span id="conVoy"></span></td>
+			<td><span id="inverse"></span></td>
+			<td><span id="palyn"></span></td>
+		</tr>
+	</table>
+
+	<div id="historique"><span id="histo"></span></div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
